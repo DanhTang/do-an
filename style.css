@@ -181,12 +181,13 @@ h3, h1{
   #ct2 a{
     font-size: 20px;
   }
+  .imgspz,
   .imgsp{
     overflow: hidden;
   }
 
   .imgsp img {
-    transition: all .3s;
+    transition: all .5s;
     transform: scale(1.1);
     width: 100%;
 }
@@ -247,11 +248,11 @@ h3, h1{
     display: inline-block;
   }
   #footer select{
-    height: 66px;
+    height: 65px;
     width: 90px;
     background-color: #4A4A4A;
     position: relative;
-    top: -4px;;
+    top: -4px;
   }
   input[type="text"]{
     font-size: 25px;
@@ -398,8 +399,16 @@ h3, h1{
 .allsp:hover{
   text-decoration: 3px underline rgb(46, 200, 78);
 }
-#sp{
-
+.imgspz img {
+  transition: all .5s;
+  transform: scale(1);
+  width: 100%;
+}
+.imgspz:hover img{
+  transform: scale(1.1);
+}
+.item-box:hover img {
+  transform: scale(1.05);
 }
 .item-box{
   position: relative;
@@ -416,6 +425,9 @@ h3, h1{
   transition: all .3s;
   width: auto;
   margin-top: 36px;
+  transition: all .3s;
+  transform: scale(1);
+
 }
 .choose-color{
   position: absolute;
