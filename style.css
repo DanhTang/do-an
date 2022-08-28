@@ -206,20 +206,23 @@ h3, h1{
 #ct3 .col-sm-7{
   width: 58.333333%;
 }
+  #ct5,
   #ct4{
     background-color: rgb(192,166,154);
     margin-top: 201px;
   }
+  #ct5 .container,
   #ct4 .container{
     padding: 150px 0 ;
   }
+  #ct5 .cu,
   #ct4 .cu{
     margin-bottom: 50px;
     font-family: mediumfont;
     color: #000;
    
   }
-  
+  #ct5 p,
   #ct4 p{
     font-size: 20px;
     padding-top: 15px;
@@ -469,4 +472,85 @@ h3, h1{
 }
 .cach{
   height: 100px;
+}
+/*page-3*/
+.container2{
+  width: 50%;
+  margin: 0 auto;
+}
+.incontainer{
+  width: 90%;
+  margin: 0 auto;
+}
+#store h1{
+  font-size: 68px;
+  text-align: center;
+  padding: 50px 0;
+  font-family: regularfont;
+}
+#storeimg .imgsp{
+  margin-bottom: 50px;
+}
+#store p{
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+#bach{
+  padding: 50px 0 158px 0;
+}
+#service{
+  padding-top: 128px;
+  padding-bottom: 70px;
+  background-color: #f6f6f6;
+}
+#service .container2{
+  width: 45%;
+}
+#service h1{
+  font-size: 48px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+#service a{
+  display: block;
+  text-align: center;
+  margin: 0 39%;
+}
+.icservice ul{
+  align-items: flex-start;
+  display: flex;
+  padding-top: 30px;
+}
+.icservice li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 17%;
+}
+.icservice li p{
+  display: inline-block;
+  width: 100px;
+  padding-top: 20px;
+  font-size: 16px;
+  font-family: mediumfont;
+  text-align: center;
+}
+.icservice ul li:nth-child(4){
+  padding-right: 0;
+}
+#chtn h2{
+  padding:50px 0;
+  text-align: center;
+  font-size: 48px;
+}
+#chtn .container2{
+  width: 79%;
+  font-size: 20px;
+}
+#chtn p a{
+  color: #046a38;
+  display: inline;
+}
+#ct5{
+  background-color: rgb(235,240,243);
 }
