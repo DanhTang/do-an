@@ -132,23 +132,6 @@ h3, h1{
     
 
 }
-.swiper-slide {
- 
-
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: block;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-  }
 
   .swiper-slide img {
     display: block;
@@ -181,9 +164,14 @@ h3, h1{
 
   }
   #ct2 .tren{
-    margin-bottom: 100px;
+    margin-bottom: 20%;
   }
-
+  #ct2 .col-sm-6{
+    width: 51%;
+  }
+  #ct2 .col-sm-5{
+    width: 40.6667%;
+  }
   #ct3 .buttom,
   #ct2 .buttom{
     padding: 10px 20px;
@@ -195,38 +183,27 @@ h3, h1{
   }
   .imgsp{
     overflow: hidden;
-    margin: 0 auto;
-    height: 910px;
   }
-  .imgspsmall{
-    overflow: hidden;
-    margin: 0 auto;
-    height: 350px;
-  }
-  .imgsp img,
-  .imgspsmall img {
-    height: auto !important;
-    transition: 0.5s all ease-in-out;
-    position: relative;
-    top: -6%;
-    left: -6%;
-    width: 112%;
-}
-.imgsp img{
-  top: -7%;
-  width: 120%;
-  left: -10%;
+
+  .imgsp img {
+    transition: all .3s;
+    transform: scale(1.1);
+    width: 100%;
 }
 
-.imgsp:hover img,
-.imgspsmall:hover img {
-    transform: scale(0.9);
+
+.imgsp:hover img {
+    transform: scale(1);
 }
-#ct3 .imgspsmall{
-  height: 594px;
+#ct3 .col-sm-4{
+  width: 30.333333%;
 }
-#ct3 .imgspsmall img{
-  height: 110%;
+
+#ct3 .col-sm-1{
+  width: 9.333333%;
+}
+#ct3 .col-sm-7{
+  width: 58.333333%;
 }
   #ct4{
     background-color: rgb(192,166,154);
