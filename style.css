@@ -74,7 +74,7 @@ h3, h1{
 }
 
 #nav {
-    height: 80px;
+   
 
 }
 #nav i{
@@ -553,4 +553,30 @@ h3, h1{
 }
 #ct5{
   background-color: rgb(235,240,243);
+}
+/*Page-4*/
+#nav1{
+  height: 80px;
+
+}
+#subnav{
+  position: relative;
+  transform: translateX(-50%);
+  left: 50%;
+  display: inline;
+}
+#nav1 ul{
+  align-items: center;
+ 
+}
+#logo2{
+  position: relative;
+  right: 0;
+  display: inline-block;
+}
+#nav1 img{
+  height: 25px;
+}
+#nav1 li a{
+  line-height: 80px;
 }
