@@ -15,9 +15,11 @@
 }
 .left{
     float: left;
+    width: 45%;
 }
 .right{
     float: right;
+    width: 50%;
 }
 .container{
     width: 71%;
@@ -73,8 +75,8 @@ h3, h1{
    top: 30px;
 }
 
-#nav {
-   
+#nav .search {
+   float: right;
 
 }
 #nav i{
@@ -555,28 +557,167 @@ h3, h1{
   background-color: rgb(235,240,243);
 }
 /*Page-4*/
-#nav1{
-  height: 80px;
-
+@font-face {
+  font-family: bold;
+  src: url(font/MyriadPro-Bold.woff2);
 }
-#subnav{
-  position: relative;
-  transform: translateX(-50%);
-  left: 50%;
-  display: inline;
+@font-face {
+  font-family: regular;
+  src: url(font/MyriadPro-Regular.woff2);
 }
-#nav1 ul{
-  align-items: center;
- 
+@font-face {
+  font-family: semi;
+  src: url(font/MyriadPro-Semibold.woff2);
 }
-#logo2{
-  position: relative;
-  right: 0;
+.topbanner{
+  background-color: #fff;
+  text-align: center;
+  padding: 0 30px;
+  width: 99%;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.topbanner h2{
+  font-size: 24px;
+  line-height: 20px;
+  font-family: regular;
+  font-weight: 600;
   display: inline-block;
 }
-#nav1 img{
-  height: 25px;
+#muahang{
+  background: #bbbbbb23;
 }
-#nav1 li a{
-  line-height: 80px;
+#banner img{
+  width: 100%;
+}
+.container3{
+  width: 60%;
+  margin: 0 auto;
+}
+.newproduct .row{
+  margin: 0;
+  padding: 0;
+}
+.newproduct .row .col-sm-6,
+.newproduct .row .col-sm-4{
+  background-color: #fff;
+  margin-right: 7px;
+  margin-bottom: 7px;
+  padding: 10px;
+}
+.newproduct .row .col-sm-6{
+  width: 49%;
+}
+.newproduct .row .col-sm-4{
+  width: 32.5%;
+  display: flex;
+}
+.info .tag{
+  text-align: right;
+  display: block;
+}
+.info .tag img{
+  height: 14px;
+  width: auto;
+}
+.info .tag p{
+  display: inline-block;
+  color: #fd820a;
+  font-size: 14px;
+}
+.info-phone{
+  display: block;
+}
+.info-phone li{
+  font-size: 14px;
+  font-family: regular;
+  display: block;
+}
+.newproduct .row .col-sm-4 .phone img{
+  width: 150px;
+}
+.phone img{
+  width: 200px;
+  padding-left: 10px;
+}
+.phone .old-price,
+.phone .new-price{
+  font-family: bold;
+  font-size: 24px;
+  color: red;
+  display: block;
+  text-align: center;
+}
+.phone .old-price{
+  text-decoration:line-through;
+  color: #939393;
+  font-size: 21px;
+}
+.phone .phonename{
+  font-size: 34px;
+  color: #000c;
+  font-family: bold;
+  margin-top: 24px;
+  text-align: center;
+}
+.newproduct .row .col-sm-4 .phone{
+  flex: 1 1 10%;
+}
+.newproduct .row .col-sm-4 .info{
+  flex: 1 1 65%;
+}
+.newproduct .row .col-sm-4 .new-price,
+.newproduct .row .col-sm-4 .phonename{
+  font-size: 18px;
+  display: inline-block;
+  text-align: left;
+}
+.newproduct .row .col-sm-4 .old-price{
+  font-size: 14px;
+  display: inline;
+}
+.newproduct .row .col-sm-4 .buynow{
+  padding: 5px 25px;
+  font-size: 12px;
+}
+.buynow{
+  color: #046A38;
+  border: 1px solid #046A38;
+  border-radius: 35px;
+  padding: 9px 36px;
+  background-color: #fff;
+  font-weight: bolder;
+  font-size: 18px;
+  font-family: bold;
+  margin-top: 20px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.buynow:hover{
+  background-color: #046A38;
+  color: #fff;
+}
+.newproduct .row .col-sm-4 .phone .discount{
+  font-size: 12px;
+  top: 170px;
+  width: 130px;
+  padding-top: 2px;
+  height: 19px;
+}
+.discount{
+    position: absolute;
+    height: 30px;
+    width: 180px;
+    background-color: red;
+    background-image: linear-gradient(100deg, rgba(253,130,10, 1) 20%, red);
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    z-index: 1000;
+    top: 235px;
+    font-family: bold;
+    padding-top: 4px;
 }
