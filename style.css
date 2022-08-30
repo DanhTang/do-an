@@ -476,8 +476,26 @@ h3, h1{
 .blue{
   background-color: rgb(44, 124, 216);
 }
+.orange{
+  background-color: rgb(255, 154, 107);
+}
 .rainbow{
-  background-color: rgb(116, 197, 193);
+  background-color: rgb(139, 255, 240);
+}
+.grey{
+  background-color: rgb(128, 128, 128);
+}
+.silver{
+  background-color: rgb(145, 215, 255);
+}
+.purple{
+  background-color: rgb(238, 194, 255);
+}
+.green{
+  background-color: rgb(155, 255, 233);
+}
+.vanilla{
+  background-color: rgb(255, 216, 172);
 }
 .cach{
   height: 100px;
