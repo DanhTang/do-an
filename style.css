@@ -176,23 +176,29 @@ h3, h1{
   #ct2 .buttom{
     padding: 10px 20px;
     font-size: 12px;
+    display: inline-block;
   }
   #ct3 a,
   #ct2 a{
     font-size: 20px;
   }
+  .imgspm{
+    overflow: hidden;
+    min-width: 370px;
+  }
   .imgspz,
   .imgsp{
     overflow: hidden;
   }
-
+  .imgspm img,
   .imgsp img {
+
     transition: all .5s;
     transform: scale(1.1);
     width: 100%;
 }
 
-
+.imgspm:hover img,
 .imgsp:hover img {
     transform: scale(1);
 }
@@ -243,6 +249,7 @@ h3, h1{
     width: 383px;
     background-color: #4A4A4A;
     border: 0;
+    margin-right: 5px;
   }
   #footer #sdt{
     height: 66px;
@@ -267,15 +274,16 @@ h3, h1{
     height: 66px;
     width: 383px;
     display: inline-block;
-    margin: 0 10px;
+    margin-right: 5px;
   }
   #footer .buttom{
-    padding: 22px 70px;
+    padding: 19px 70px;
     background-color: rgb(4, 106, 56) !important;
     font-size: 20px;
     position:relative;
     top:-2px;
     left: 0;
+    display: inline-block;
   }
   .checkbox{
     position:relative;
@@ -297,6 +305,7 @@ h3, h1{
   }
   #menu{
     margin-top: 100px;
+    margin-bottom: 30px;
   }
   #menu h5{
     font-size: 16px;
