@@ -15,11 +15,9 @@
 }
 .left{
     float: left;
-    width: 45%;
 }
 .right{
     float: right;
-    width: 50%;
 }
 .container{
     width: 71%;
@@ -569,6 +567,10 @@ h3, h1{
   font-family: semi;
   src: url(font/MyriadPro-Semibold.woff2);
 }
+@font-face {
+  font-family: regular2;
+  src: url(font/glyphicons-halflings-regular.woff);
+}
 .topbanner{
   background-color: #fff;
   text-align: center;
@@ -607,14 +609,18 @@ h3, h1{
 }
 .newproduct .row .col-sm-6{
   width: 49%;
+  display: flex;
+  min-width: 370px;
 }
 .newproduct .row .col-sm-4{
   width: 32.5%;
   display: flex;
+  min-width: 285px;
 }
 .info .tag{
   text-align: right;
   display: block;
+
 }
 .info .tag img{
   height: 14px;
@@ -624,6 +630,7 @@ h3, h1{
   display: inline-block;
   color: #fd820a;
   font-size: 14px;
+  font-family: bold;
 }
 .info-phone{
   display: block;
@@ -638,7 +645,10 @@ h3, h1{
 }
 .phone img{
   width: 200px;
-  padding-left: 10px;
+  margin-left: 28px;
+}
+.price{
+width: 120%;
 }
 .phone .old-price,
 .phone .new-price{
@@ -659,12 +669,18 @@ h3, h1{
   font-family: bold;
   margin-top: 24px;
   text-align: center;
+  margin-bottom: 0;
 }
+.newproduct .row .col-sm-4 .phone img{
+  margin-left: 2px;
+}
+.newproduct .row .col-sm-6 .phone,
 .newproduct .row .col-sm-4 .phone{
-  flex: 1 1 10%;
+  flex: 1 1 0%;
 }
+.newproduct .row .col-sm-6 .info,
 .newproduct .row .col-sm-4 .info{
-  flex: 1 1 65%;
+  flex: 1 1 1%;
 }
 .newproduct .row .col-sm-4 .new-price,
 .newproduct .row .col-sm-4 .phonename{
@@ -677,7 +693,7 @@ h3, h1{
   display: inline;
 }
 .newproduct .row .col-sm-4 .buynow{
-  padding: 5px 25px;
+  padding: 5px 15px;
   font-size: 12px;
 }
 .buynow{
@@ -700,7 +716,7 @@ h3, h1{
 }
 .newproduct .row .col-sm-4 .phone .discount{
   font-size: 12px;
-  top: 170px;
+  top: 186px;
   width: 130px;
   padding-top: 2px;
   height: 19px;
@@ -717,7 +733,84 @@ h3, h1{
     text-align: center;
     font-size: 20px;
     z-index: 1000;
-    top: 235px;
+    top: 238px;
     font-family: bold;
     padding-top: 4px;
+    left: 0;
+}
+footer{
+  margin-top: 50px;
+}
+footer .container{
+  width: 85%;
+
+}
+#menunew a{
+  display: block;
+  font-family: regular;
+  font-size: 14px;
+  color: #333;
+  opacity: 0.8;
+  margin-bottom: 15px;
+}
+#menunew a:hover{
+  text-decoration: underline;
+  color: #046A38;
+}
+#menunew .title{
+  font-family: semi;
+  font-size: 15px;
+}
+#menunew .title:hover{
+  text-decoration: underline;
+  color: #001b0e;
+}
+#menunew>a{
+  text-align: right;
+}
+.icend ul{
+    display: inline-flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.icend li{
+  border-radius: 50%;
+    background-color: rgba(182, 182, 182, 0.425);
+    width: 21px;
+    margin-right: 10px;
+
+}
+.icend i{
+  color: #fff;
+}
+.icend a{
+  padding: 0;
+  padding-left: 3px;
+}
+.ic p{
+  display: inline-block;
+  font-family: regular;
+  font-size: 14px;
+  color: #333;
+  opacity: 0.8;
+}
+#bct a{
+  width: 182px;
+  float: right;
+}
+#bct img{
+  height: 65px;
+}
+#end1{
+  border-top: 1px solid rgb(212, 212, 212);
+  padding-top: 23px;
+  font-family: semi;
+  font-size: 15px;
+}
+#end1 .left{
+  font-family: regular;
+  font-size: 14px;
+  color: #333;
+  opacity: 0.8;
 }
