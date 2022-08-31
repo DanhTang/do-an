@@ -85,18 +85,36 @@ h3, h1{
 }
 #ctnav{
   height: 80px;
-  margin-left: 200px;
+  min-width: 940px;
   display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%)
 }
 #ctnav a{
   font-size: 16px;
-  padding: 28px 23px;
+  padding: 28px 16px;
   line-height: 80px;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.39);
 }
+#ctnav a:nth-child(7){
+  padding-right: 0;
+}
 #nav a:hover{
   color: #000;
+}
+@media screen and (max-width: 1420px) {
+#ctnav{
+  min-width: 675px;
+}
+  #ctnav a{
+    font-size: 12px;
+    padding: 20px 10px; 
+  }
+  #nav .container{
+    width: 90%;
+  }
 }
 
 .spcnt{
@@ -108,7 +126,9 @@ h3, h1{
     border: none;
     display: block;
 }
-
+.carousel-indicators li {
+  border: 2px solid #b4b4b4;
+}
 .carousel-caption1, .carousel-caption2, .carousel-caption4{
     position: absolute;
     left: 10%;
@@ -855,3 +875,4 @@ footer .container{
   color: #333;
   opacity: 0.8;
 }
+/*---------------------------------------------------------------------*/
