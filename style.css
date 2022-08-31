@@ -730,6 +730,10 @@ width: 120%;
   padding: 5px 15px;
   font-size: 12px;
 }
+.newproduct .row .col-sm-4:hover,
+.newproduct .row .col-sm-6:hover{
+  box-shadow: 3px 2px 5px 2px #888;
+}
 .buynow{
   color: #046A38;
   border: 1px solid #046A38;
