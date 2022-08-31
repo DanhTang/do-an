@@ -116,7 +116,11 @@ h3, h1{
     width: 90%;
   }
 }
-
+@media screen and (max-width: 1600px) {
+    #nav .container{
+      width: 90%;
+    }
+  }
 .spcnt{
   margin-top: 10px;
 }
