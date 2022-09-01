@@ -426,6 +426,9 @@ h3, h1{
   font-family: mediumfont;
   font-size: 28px;
 }
+.namenav p{
+  display: inline-block;
+}
 .ctname{
   display: inline;
 }
@@ -433,6 +436,7 @@ h3, h1{
   font-size: 16px;
   display: inline;
   position: relative;
+  line-height: 50px;
   right: 0;
   text-decoration: 3px underline rgb(46, 200, 78);
 }
